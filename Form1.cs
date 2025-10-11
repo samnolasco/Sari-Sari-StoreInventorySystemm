@@ -73,7 +73,7 @@ namespace Sari_Sari_Store_Inventory_Systemm
                 
                 else
                 {
-                    MessageBox.Show("Please select an item to remove.");
+                    MessageBox.Show("Please select an item to removed.");
                 }   
             }
         }
