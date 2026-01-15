@@ -51,7 +51,7 @@ namespace Sari_Sari_Store_Inventory_Systemm
             }
 
         }
-       
+
         private void btnRemove_Click(object sender, EventArgs e)
         {
             if (lstAvailable.SelectedItem != null || lstUnavailable != null)
@@ -70,12 +70,17 @@ namespace Sari_Sari_Store_Inventory_Systemm
                 {
                     lstUnavailable.Items.Remove(lstUnavailable.SelectedItem);
                 }
-                
+
                 else
                 {
                     MessageBox.Show("Please select an item to removed.");
-                }   
+                }
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
